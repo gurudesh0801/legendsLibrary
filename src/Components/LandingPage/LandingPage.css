@@ -1,0 +1,98 @@
+/* LandingPage.css */
+
+.mainDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.textContent {
+  flex: 1;
+  max-width: 50%;
+  margin-bottom: 10rem;
+}
+
+.heading {
+  font-size: 6rem;
+  margin-bottom: 20px;
+}
+
+.textContent p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.imgContents {
+  flex: 1;
+  max-width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgContents img {
+  max-height: 100%;
+  width: auto;
+}
+.btn1{
+    width: 10rem;
+    padding: 8px 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+}
+.img img{
+    position: absolute;
+    top: 18rem;
+    left: 25rem;
+    width: 28rem;
+}
+
+@media (max-width: 768px) {
+  .mainDiv {
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .textContent {
+    max-width: 100%;
+  }
+
+  .heading {
+    font-size: 4rem;
+    margin-left: 0;
+  }
+
+  .textContent p {
+    font-size: 1rem;
+    margin-left: 0;
+  }
+
+  .imgContents {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .imgContents img {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 3rem;
+  }
+
+  .textContent p {
+    font-size: 0.9rem;
+  }
+
+  .imgContents img {
+    max-height: 40vh;
+  }
+}
