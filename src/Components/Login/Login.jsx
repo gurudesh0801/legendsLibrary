@@ -12,12 +12,14 @@ const Login = () => {
           <p className="letterHeading">Start Your Journey</p>
           <h1 className="formHeading">Log in to Legends Library</h1>
           <form id="loginFormDetails">
-            <label htmlFor="email">Email</label>
-            <input type="email" name="email" />
+            <label htmlFor="memberid">Member ID</label>
+            <input type="text" name="memberid" placeholder="Member ID"/>
+            <label htmlFor="email" >Email</label>
+            <input type="email" name="email" placeholder="Email"/>
             <label htmlFor="password" name="password">
               Password
             </label>
-            <input type="password" />
+            <input type="password" name="password" placeholder="Password"/>
             <p>Forgot password?</p>
             <input type="submit" name="loginSubmit" id="loginSubmit" value="Login" />
           </form>
