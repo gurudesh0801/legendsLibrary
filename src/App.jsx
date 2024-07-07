@@ -14,8 +14,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="https://legends-library--mu.vercel.app/contact" element={<ContactUs />} />
-          <Route path="https://legends-library--mu.vercel.app/login" element={<Login />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
         <Footer/>
       </div>
