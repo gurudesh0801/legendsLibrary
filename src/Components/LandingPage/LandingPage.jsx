@@ -1,7 +1,7 @@
 import React from "react";
 import "./LandingPage.css";
-import design from "../../../public/Images/design.png";
-import Libstude from "../../../public/Images/Libstude.png";
+import design from "/Images/design.png";
+import Libstude from "/Images/Libstude.png";
 
 const LandingPage = () => {
   return (
@@ -9,14 +9,14 @@ const LandingPage = () => {
       <div className="mainDiv">
         <div className="textContent">
           <h1 className="heading">
-            Leagends <br />
+            Legends <br />
             <span className="span">library</span>
           </h1>
-          <p>
-            Discover the world of knowledge, adventure, and <br />community at legrnds
+          <p className="tagline">
+            Discover the world of knowledge, adventure, and <br />community at legends
             library.
           </p>
-          <p>
+          <p className="tagline">
             We are more than just a collection of books; we are a <br />hub for
             learning, creativity and connection.
           </p>

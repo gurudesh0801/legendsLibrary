@@ -1,16 +1,26 @@
-import './App.css'
-import LandingPage from './Components/LandingPage/LandingPage'
-import Navbar from './Components/Navbar/Navbar'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import ContactUs from "./Components/ContactUs/ContactUs";
+import LandingPage from "./Components/LandingPage/LandingPage";
+import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
+import Login from "./Components/Login/Login";
 
 function App() {
-
   return (
-    <>
-      {/* <h1>Jay Shree Ram</h1> */}
-      <Navbar/>
-      <LandingPage/>
-    </>
-  )
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+        <Footer/>
+      </div>
+    </Router>
+  );
 }
 
-export default App
+export default App;
