@@ -127,7 +127,10 @@
   }
 
   .loginForm {
-    width: 100%;
+    width: 90%;
     max-width: none;
+  }
+  .or{
+    font-size: 1em;
   }
 }

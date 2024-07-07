@@ -36,16 +36,16 @@ const SignUp = () => {
         <h1 className='formHeading'>Sign Up to Legends Library</h1>
         <form onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label>
-          <input type="text" name='name' id='name' required />
+          <input type="text" name='name' id='name' placeholder='Name' required />
           
           <label htmlFor="email">Email</label>
-          <input type="email" name='email' id='email' required />
+          <input type="email" name='email' id='email'placeholder='Email' required />
           
           <label htmlFor="password">Password</label>
-          <input type="password" name='password' id='password' required />
+          <input type="password" name='password' id='password' placeholder='Password' required />
           
           <label htmlFor="confirmPassword">Confirm Password</label>
-          <input type="password" name='confirmPassword' id='confirmPassword' required />
+          <input type="password" name='confirmPassword' id='confirmPassword' placeholder='Confirm Password' required />
           
           <label htmlFor="captcha">Captcha</label>
           <div className="captchaContainer">
@@ -57,6 +57,7 @@ const SignUp = () => {
             name='captcha'
             id='captcha'
             value={enteredCaptcha}
+            placeholder='Enter Captcha'
             onChange={(e) => setEnteredCaptcha(e.target.value)}
             required
           />
