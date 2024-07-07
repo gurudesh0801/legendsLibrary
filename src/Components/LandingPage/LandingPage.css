@@ -1,5 +1,5 @@
 /* LandingPage.css */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 .mainDiv {
   display: flex;
@@ -23,8 +23,7 @@
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+  font-variation-settings: "slnt" 0;
 }
 
 .textContent .tagline {
@@ -46,20 +45,20 @@
   max-height: 100%;
   width: auto;
 }
-.btn1{
-    width: 10rem;
-    margin-top: 1rem;
-    padding: 8px 10px;
-    background: black;
-    color: white;
-    border: none;
-    border-radius: 2rem;
+.btn1 {
+  width: 10rem;
+  margin-top: 1rem;
+  padding: 8px 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 2rem;
 }
-.img img{
-    position: absolute;
-    top: 18rem;
-    left: 25rem;
-    width: 28rem;
+.img img {
+  position: absolute;
+  top: 18rem;
+  left: 25rem;
+  width: 28rem;
 }
 
 @media (max-width: 768px) {
@@ -70,6 +69,7 @@
 
   .textContent {
     max-width: 100%;
+    height: 1rem;
   }
 
   .heading {
@@ -82,12 +82,10 @@
     margin-left: 0;
   }
 
-  .imgContents {
-    max-width: 100%;
-    height: auto;
-  }
-
   .imgContents img {
+    display: none;
+  }
+  .img img {
     display: none;
   }
 }
@@ -103,5 +101,8 @@
 
   .imgContents img {
     max-height: 40vh;
+  }
+  .img img {
+    display: none;
   }
 }
