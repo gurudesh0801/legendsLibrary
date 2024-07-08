@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import Login from "./Components/Login/Login";
 import SignIn from "./Components/Signup/SignUp";
+import Features from "./Components/Features/Features";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/features" element={<Features />} />
           <Route path="/contact" element={<ContactUs />} />
           <Route path="/signup" element={<SignIn />} />
           <Route path="/login" element={<Login />} />
