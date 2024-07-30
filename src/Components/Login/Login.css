@@ -29,13 +29,14 @@
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 20px;
-  height: 35rem;
+  height: 36rem;
 }
 
 .letterHeading {
   margin: 0 0 10px;
   color: #333;
   font-size: 14px;
+  text-align: center;
 }
 
 .formHeading {
@@ -109,6 +110,17 @@
 }
 
 .dontAcccount a:hover {
+  text-decoration: underline;
+}
+.adminLogin {
+  text-align: center;
+}
+.adminLogin a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.adminLogin a:hover {
   text-decoration: underline;
 }
 .or {

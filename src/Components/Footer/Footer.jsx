@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="map-container">
           <MapContainer
-            center={[51.505, -0.09]}
+            center={[18.5155, 73.850]}
             zoom={13}
             scrollWheelZoom={false}
             style={{ height: "100%", width: "100%" }}
@@ -18,7 +18,7 @@ const Footer = () => {
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
-            <Marker position={[51.505, -0.09]}>
+            <Marker position={[18.5155, 73.850]}>
               <Popup>
                 A pretty CSS3 popup. <br /> Easily customizable.
               </Popup>

@@ -11,7 +11,7 @@ const Features = () => {
           <img src={libraryPhoto} alt="" />
           <div className="feature1text">
             <h1>Heading</h1>
-            <p>
+            <p className="para1">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
               incidunt sint magni, rem quasi quibusdam nemo nesciunt
               exercitationem eaque laborum?
@@ -24,7 +24,7 @@ const Features = () => {
         <div className="feature2">
           <div className="feature2text">
             <h1>Heading</h1>
-            <p>
+            <p className="para2">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
               incidunt sint magni, rem quasi quibusdam nemo nesciunt
               exercitationem eaque laborum?
@@ -39,7 +39,7 @@ const Features = () => {
           <img src={libraryPhoto} alt="" />
           <div className="feature3text">
             <h1>Heading</h1>
-            <p>
+            <p className="para1">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
               incidunt sint magni, rem quasi quibusdam nemo nesciunt
               exercitationem eaque laborum?
@@ -52,7 +52,7 @@ const Features = () => {
         <div className="feature4">
           <div className="feature4text">
             <h1>Heading</h1>
-            <p>
+            <p className="para2">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
               incidunt sint magni, rem quasi quibusdam nemo nesciunt
               exercitationem eaque laborum?

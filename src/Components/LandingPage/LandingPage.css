@@ -53,6 +53,7 @@
   color: white;
   border: none;
   border-radius: 2rem;
+  cursor: pointer;
 }
 .img img {
   position: absolute;

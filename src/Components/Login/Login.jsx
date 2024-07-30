@@ -32,6 +32,9 @@ const Login = () => {
           <p className="dontAcccount">
             Don't Have Account? <a href="#">Create Account</a>
           </p>
+          <p className="adminLogin">
+            You Are Admin? <a href="#">Login</a>
+          </p>
         </div>
       </div>
     </>
